@@ -1,0 +1,110 @@
+.image-wrapper {
+    position: relative;
+    width: 100%; 
+    height: 300px; 
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .text-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center;  
+  }
+.register-form {
+    padding-top: 15px;
+    padding-bottom: 120px;
+    background: #070720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+  }
+  
+  .register__form {
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 500px; 
+  }
+  
+  .register__form h3 {
+    color: white; 
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .input__item {
+    position: relative; 
+    margin-bottom: 20px; 
+  }
+  
+  .input__item input {
+
+    height: 50px; 
+    width: 100%; 
+    font-size: 15px; 
+    color: #b7b7b7; 
+    background: white; 
+    border: 1px solid #ccc; 
+    padding-left: 60px; 
+    border-radius: 4px; 
+  }
+  .input__item input::placeholder {
+    color: #b7b7b7;
+  }
+  .input__item span {
+    color: #b7b7b7; 
+    font-size: 20px; 
+    position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  .input__item span i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+  }
+  .site-btn {
+    display: block; 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
+    text-align: center; 
+    width: 100%;
+    border-radius: 0;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ff4343;
+    height: 50px;
+  }
+  .text1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h4 {
+    font-size: 15px;
+    color: #fff;
+    padding-right: 15px;
+  }
+  .text1 span .textlink{
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+  }
+
+ 
